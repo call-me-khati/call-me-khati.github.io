@@ -1,0 +1,89 @@
+img{
+    width: 100px;
+    border-radius: 100%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #efecec;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(41,22,56,1) 78%, rgba(61,22,78,1) 100%);
+}
+.flexx{
+    margin:50px auto;
+    padding: 40px;
+    padding-left: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #180d19;
+    color: #fff;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-top: 50px;
+}
+.roles {
+    color: #ff6150;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+.about-me, .projects, .contact {
+    padding: 20px 0;
+}
+
+.about-me h2, .projects h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    background-color: #4d4a4a;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #4d4a4a;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2f0c32;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
